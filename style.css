@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url('./assets/images/BackGround.png');
+    background-size: cover;
+    background-position: center ;
+    padding: 15px;
+    color: white;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding: 15px;
+    font-weight: 300;
+}
+header ul{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-size: larger;
+}
+header .quote{
+height: 20vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin-bottom: 40px;
+}
+header img{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+header .quote h3{
+   display: block; 
+   width: fit-content;
+   margin: 0 auto;
+   font-size: x-large;
+   letter-spacing: 2px;
+}
+.flier-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+.flier-1 .card img{
+    border-radius: 20px;
+    width: 320px;
+}
+.flier-1 div{
+    border-radius: 20px;
+}
+.flier-2 > p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.flier-2 .cards{
+    display: flex;
+    flex-direction: row;
+    /* width: auto; */
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-margin: 10px;
+}
+.flier-2 .cards .card{
+    margin: 10px 20px;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px 0;
+    background-color: rgba(217, 213, 213, 0.836);
+    padding: 20px;
+}
+.download .preview img{
+   width: 330px;
+}
+.download .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px;
+}
+.download .text h1{
+    font-size: 40px;
+}
+.download .text p{
+    font-size: 18px;
+    color: rgb(111, 111, 111);
+    font-weight: 400;
+}
+.download .text form {
+    /* border: 2px solid red;  */
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.download .text form input{
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+}
+.download .text form button{
+    background-color: #EF4F5F;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.download .text .play_store img{
+    width: 200px;
+}
+footer{
+    background-color: white;
+    color: #EF4F5F;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
